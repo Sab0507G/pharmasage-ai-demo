@@ -23,3 +23,26 @@ This repository is intended for **hackathon / academic / prototype submission**.
 ├── flowchart.md # Workflow flowchart (Mermaid)
 ├── requirements.txt # Python dependencies
 ├── README.md
+
+## Demo Instructions
+
+1. Clone the repository:
+git clone <repo_url>
+cd <repo_folder> 
+
+2. Install dependencies: 
+pip install -r requirements.txt
+
+3. Run the dashboard:
+streamlit run app.py
+
+4. In the sidebar:
+Enter Molecule Name (e.g., Metformin, Aspirin)
+Enter Research Objective
+Click Run Analysis (if using button)
+
+5. Observe:
+Table & charts update dynamically based on molecule input
+Agent execution status updates
+Download dummy PDF report
+
